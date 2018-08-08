@@ -1,10 +1,6 @@
 %To  run this code simply click Run and the results should show after...
 %aproximately 6.5 seconds
-% Term Project Fall 2015
-% copy right Rami Yousef Khalil 260558325
-% CHEE390 Computational Methods in Chemical Engineeing
-% Prof.Philip Servio
-% Date: December 4 2015
+% copy right Rami Yousef Khalil
 T = 310.928;
 xcomposition=zeros(1,1000);
 ycomposition=zeros(1,1000);
