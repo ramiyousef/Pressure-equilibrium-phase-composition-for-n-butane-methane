@@ -1,13 +1,13 @@
 # Pressure-equilibrium-phase-composition-for-n-butane-methane
 
-To Run the program simply run the file scripttermproject.m and wait from 6 to 13 seconds to display the results
+To run the program, simply execute the scripttermproject.m file and wait 6 to 13 seconds for the results to display.
 
-The objective of the project is to write a Matlab program to predict the behavior of a binary methane and n-butane mixture and construct a plot of pressure vs x1 (methane) at a constant temperature of 100 degrees Fahrenheit. The behavior should be predicted by performing flash calculations of thermodynamic equations obtained from the “Equilibrium constants from a modified Redlich- Kwong equation of state” paper along with the Wilson equation (Wilson, 1968) to predict an initial guess of the equilibrium constants used in the flash calculations.
+This MATLAB program is designed to predict the behavior of a binary mixture of methane and n-butane. The program constructs a plot of pressure versus the mole fraction of methane (x1) at a constant temperature of 100°F. The behavior is predicted using flash calculations derived from thermodynamic equations based on the paper "Equilibrium Constants from a Modified Redlich-Kwong Equation of State" by Soave (1972), alongside the Wilson equation (Wilson, 1968), to estimate the equilibrium constants for the flash calculations.
 
-paper: Soave, G., 1972. Equilibrium constants from a modified Redlich-Kwong equation of state. Chemical engineering science, 27(6), pp.1197-1203.
+Reference Paper: Soave, G., 1972. Equilibrium constants from a modified Redlich-Kwong equation of state. Chemical engineering science, 27(6), pp.1197-1203.
 Link: http://dns2.asia.edu.tw/~ysho/YSHO-English/2000%20Engineering/PDF/Che%20Eng%20Sci27,%201197.pdf
 
-The Wilson equation is the following:
+Wilson Equation:
 ln(𝐾_i) = ln(𝑃_ci/𝑃) + 5.37(1 + 𝑤_i)(1 − 𝑇_ci/𝑇)
 
 Where,
@@ -18,7 +18,8 @@ Where,
 • 𝑊_i is the acentric factor of each component
 
 
-The following criteria was used to obtain the plot for flash calculations (no modifications were used):
+Flash Calculation Criteria:
+The following values were used to generate the plot:
 • 𝑍_methane=0.001;𝑍_butane=0.9999 to obtain the first chunk of the graph from the left.
 • 𝑍_methane= 0.2; 𝑍_butane=0.80; to obtain the next small chunk of the graph.
 • 𝑍_methane= 0.4; 𝑍_butane=0.6 to obtain the near end of the graph.
